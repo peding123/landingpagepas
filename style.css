@@ -41,7 +41,7 @@
 
 .banner {
     height: 90vh;
-    background: url('/img/banner.jpg') no-repeat center;
+    background-image: url('/img/banner.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
