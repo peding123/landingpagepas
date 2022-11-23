@@ -12,16 +12,6 @@
     background: #990000;
 }
 
-img--unloaded {
-    opacity: 0;
-    visibility: hidden;
-}
-
-img {
-    -webkit-transition: 0.5s linear;
-    transition: 0.5s linear;
-}
-
 .highlight {
     color: red;
 }
@@ -29,7 +19,7 @@ img {
 .navigasi {
     background-color: #990000;
     color: #CB8B00;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 0px 30px;
 }
 
 .nav-link:after {
@@ -49,12 +39,29 @@ img {
     padding-right: 20px;
 }
 
+.banner {
+    height: 90vh;
+    background: url('/img/banner.jpg') no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.slogan {
+    top: 50%;
+    transform: translateY(50%);
+}
+
 .banner-h1 {
+    color: white;
     font-size: 3.5em;
 }
 
+.banner p {
+    color: white;
+}
+
 .profile {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 0px 30px;
     background-color: #990000;
 }
 
@@ -63,6 +70,7 @@ img {
 }
 
 .profile-h1 {
+    font-size: 2.5em;
     border-bottom: 5px solid white;
     padding-top: 65px;
     padding-bottom: 30px;
@@ -86,32 +94,15 @@ img {
     border-radius: 0px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 white;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
 }
 
 .btn-3 {
-    padding-left: 50px;
-    padding-right: 50px;
     color: red;
     border: 2px solid red;
     border-radius: 0px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 red;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-}
-
-.btn-2 {
-    color: red;
-    border: 2px solid red;
-    border-radius: 0px;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 red;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
 }
 
@@ -121,11 +112,6 @@ img {
 }
 
 .btn-3:hover {
-    color: white;
-    box-shadow: inset 400px 0 0 0 red;
-}
-
-.btn-2:hover {
     color: white;
     box-shadow: inset 400px 0 0 0 red;
 }
@@ -145,64 +131,50 @@ img {
 .jurusan-kol img {
     margin-bottom: 20px;
     width: 180px;
-    display: inline-block;
-    -webkit-filter: brightness(100%);
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    transition: all .5s ease;
+    transition: all .2s ease;
 }
 
 .jurusan-kol img:hover {
-    -webkit-filter: brightness(150%);
+    filter: brightness(150%);
 }
 
 .berita {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 0px 30px;
     background-color: #990000;
 }
 
+.berita-row {
+    margin-top: 40px;
+}
+
 .berita-h1 {
+    font-size: 2.5em;
     padding-bottom: 30px;
+    color: white;
     border-bottom: 5px solid white;
 }
 
-.berita-row {
-    color: #990000;
-}
-
-.berita-row .col-lg {
-    background-color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 50px;
-    padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.card {
+    width: 17rem;
+    border-radius: 0;
+    margin: auto;
+    margin-bottom: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
     transition: .2s ease;
 }
 
-.berita-row .col-lg:hover {
-    box-shadow: 0 5px 100px rgba(255, 255, 255, 0.5);
+.card:hover {
+    box-shadow: rgba(255, 255, 255, 1) 0px 0px 100px;
 }
 
-.col-lg h4 {
-    font-weight: bold;
+.card-img-top {
     margin-top: 10px;
-}
-
-.col-lg img {
-    margin: auto;
-    display: block;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.col-lg p {
-    text-align: justify;
+    border-radius: 0;
 }
 
 @media only screen and (max-width: 600px) {
     .profile-p {
+        margin-top: 10px;
         text-align: justify;
     }
 
@@ -210,18 +182,7 @@ img {
         width: 100px;
     }
 
-    .row-profile {
-        flex-wrap: wrap;
-    }
-
-    .row-jurusan {
-        flex-wrap: wrap;
-    }
-
-    .berita-row .col-lg {
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 40px;
-        padding-right: 40px;
+    .card {
+        width: 20rem;
     }
 }
