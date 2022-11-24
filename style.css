@@ -40,15 +40,14 @@
 }
 
 .banner {
-    height: 90vh;
-    background-image: url('/img/banner.jpg');
-    background-attachment: fixed;
+    background-image: url('img/banner.jpg');
+    background-position: center;
     background-size: cover;
 }
 
 .slogan {
-    top: 70%;
-    transform: translateY(30%);
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .banner-h1 {
