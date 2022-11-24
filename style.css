@@ -227,4 +227,8 @@
     .card {
         width: 20rem;
     }
+
+    .fasilitas-row .col {
+        padding: 20px;
+    }
 }
