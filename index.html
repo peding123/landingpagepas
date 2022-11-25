@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -230,19 +233,59 @@
 
     <!-- Fasilitas -->
     <div id="fasilitas">
-        <div class="fasilitas">
+        <div class="fasilitas py-5">
+            <div class="container py-5">
+                <h1 class="text-center fw-bold">Fasilitas</h1>
+            </div>
             <div class="container">
-
+                <div class="row fasilitas-row">
+                    <div class="col-md col">
+                        <img src="img/fasilitas/ac.png" width="200px" alt="">
+                        <h4>Kelas Menggunakan AC</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, aliquam? Lorem ipsum dolor
+                            sit amet consectetur, adipisicing elit. Iusto, repudiandae.</p>
+                    </div>
+                    <div class="col-md col">
+                        <img src="img/fasilitas/gor.png" width="200px" alt="">
+                        <h4>Memiliki GOR</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, aliquam? Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Cumque, debitis?</p>
+                    </div>
+                </div>
+                <div class="row fasilitas-row">
+                    <div class="col-md col">
+                        <img src="img/fasilitas/lab.png" width="200px" alt="">
+                        <h4>Lab Ada di Setiap Jurusan</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, aliquam? Lorem ipsum
+                            dolor
+                            sit amet consectetur adipisicing elit. Cumque, debitis?</p>
+                    </div>
+                    <div class="col-md col">
+                        <img src="img/fasilitas/wifi.png" width="200px" alt="">
+                        <h4>Free WiFi</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, aliquam? Lorem ipsum
+                            dolor
+                            sit amet consectetur adipisicing elit. Cumque, debitis?</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- Fasilitas -->
 
     <!-- Footer -->
-    <div class="footer text-light">
+    <div class="footer text-light pt-5">
         <div class="container">
             <div class="row footer-row py-4">
-                <div class="col">
+                <div class="col-md">
+                    <div class="map pt-2">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.0930281041833!2d106.1422929141925!3d-6.11661416168427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b1e3ca2d181%3A0xeab05aaf74cf789f!2sSMK%20INFORMATIKA%20KOTA%20SERANG!5e1!3m2!1sid!2sid!4v1669360979593!5m2!1sid!2sid"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-md mt-2">
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Name</label>
@@ -259,15 +302,22 @@
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <button type="submit" class="btn">Submit</button>
+                        <div class="icon mt-4 py-2">
+                            <p><i class="fa-solid fa-house mx-2"></i>Jl. KH. Amin Jasuta No.15C Kaloran Kota Serang
+                                Banten</p>
+                            <p><i class="fa-solid fa-phone mx-2"></i>0254-215845 / 0811127028</p>
+                            <p><i class="fa-solid fa-envelope mx-2"></i>info@smk-informatika-srg.sch.id</p>
+                            <a href="https://www.facebook.com/SMKInformatikaKotaSerang" target="_blank"><i
+                                    class="fa-brands fa-facebook fa-2xl"></i></a>
+                            <a href="https://www.instagram.com/smkin_aksi/" target="_blank"><i
+                                    class="fa-brands fa-instagram fa-2xl"></i></a>
+                            <a href="https://www.youtube.com/@SMKINTV" target="_blank"><i
+                                    class="fa-brands fa-youtube fa-2xl"></i></a>
+                        </div>
                     </form>
                 </div>
-                <div class="col">
-                    <div class="map pt-4">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.0930281041833!2d106.1422929141925!3d-6.11661416168427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b1e3ca2d181%3A0xeab05aaf74cf789f!2sSMK%20INFORMATIKA%20KOTA%20SERANG!5e1!3m2!1sid!2sid!4v1669360979593!5m2!1sid!2sid"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+                <div class="row text-center mt-5 copyright-row">
+                    <p>© SMK INFORMATIKA KOTA SERANG. | Sekolahnya Orang Komputer</p>
                 </div>
             </div>
         </div>
