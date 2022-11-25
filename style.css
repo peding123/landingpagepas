@@ -31,6 +31,7 @@
 }
 
 .nav-link:hover:after {
+    border-radius: 25px;
     transform: scaleX(1);
 }
 
@@ -77,6 +78,7 @@
 }
 
 .img {
+    border-radius: 25px;
     overflow: hidden;
 }
 
@@ -89,9 +91,9 @@
 }
 
 .btn {
+    border-radius: 25px;
     color: #FFF;
     border: 2px solid white;
-    border-radius: 0px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 white;
     transition: ease-out 0.4s;
@@ -100,7 +102,7 @@
 .btn-3 {
     color: red;
     border: 2px solid red;
-    border-radius: 0px;
+    border-radius: 25px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 red;
     transition: ease-out 0.4s;
@@ -128,7 +130,19 @@
     border-bottom: 5px solid #990000;
 }
 
+.jurusan-kol {
+    margin: 0px 10px 20px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+    transition: .2s ease;
+}
+
+.jurusan-kol:hover {
+    box-shadow: rgba(153, 0, 0, 1) 0px 0px 30px;
+}
+
 .jurusan-kol img {
+    padding-top: 20px;
     margin-bottom: 20px;
     width: 180px;
     transition: all .2s ease;
@@ -156,7 +170,7 @@
 
 .card {
     width: 17rem;
-    border-radius: 0;
+    border-radius: 25px;
     margin: auto;
     margin-bottom: 60px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
@@ -169,56 +183,34 @@
 
 .card-img-top {
     margin-top: 10px;
-    border-radius: 0;
+    border-radius: 25px;
 }
 
-.fasilitas-row {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
-    transition: .2s ease;
+.footer {
+    background-color: #990000;
 }
 
-.fasilitas-row:hover {
-    box-shadow: rgba(153, 0, 0, 1) 0px 0px 30px;
+.form-control {
+    border-radius: 10px;
 }
 
-.fasilitas-row .col {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: auto;
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 1) inset, 0 0 15px rgba(255, 255, 255, 1);
 }
 
-.fasilitas-row .col img {
-    margin: auto;
-    display: flex;
-    transition: .2s ease;
-}
-
-.fasilitas-row .col img:hover {
-    filter: brightness(150%);
-}
-
-.fasilitas-row .col h1 {
-    font-weight: bold;
-    text-align: center;
-}
-
-.container-row {
-    color: #990000;
-}
-
-.fasilitas-h1 {
-    font-size: 2.5em;
-    border-bottom: 5px solid #990000;
-    padding-top: 65px;
-    padding-bottom: 30px;
+.map iframe {
+    box-shadow: rgba(255, 255, 255, 1) 0px 0px 15px;
 }
 
 @media only screen and (max-width: 600px) {
     .profile-p {
         margin-top: 10px;
         text-align: justify;
+    }
+
+    .jurusan-kol {
+        margin: 0px 0px 20px;
     }
 
     .jurusan-kol img {
