@@ -238,10 +238,6 @@ small {
     box-shadow: 0 1px 1px rgba(255, 255, 255, .35) inset, 0 0 15px rgba(255, 255, 255, .35);
 }
 
-.icon {
-    padding-left: 10px;
-}
-
 .icon .fa-solid {
     margin-right: 10px;
 }
@@ -255,7 +251,7 @@ small {
 }
 
 .fa-brands {
-    margin: 20px 0px 0px 6px;
+    margin: 20px 0px 0px 0px;
     width: 3rem;
     color: white !important;
     transition: transform .2s ease;
