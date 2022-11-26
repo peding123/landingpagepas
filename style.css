@@ -216,20 +216,20 @@ small {
     transition: .2s ease;
 }
 
-.fasilitas-row .col:hover {
+.fasilitas-col:hover {
     box-shadow: rgba(153, 0, 0, 1) 0px 0px 30px;
 }
 
-.fasilitas-row .col:hover img {
+.fasilitas-col:hover img {
     filter: brightness(150%);
 }
 
-.fasilitas-row .col img {
+.fasilitas-col img {
     margin-top: 15px;
     transition: .2s ease;
 }
 
-.fasilitas-row .col h4 {
+.fasilitas-col h4 {
     font-weight: bold;
 }
 
