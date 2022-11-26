@@ -125,6 +125,10 @@
     padding-bottom: 80px;
 }
 
+.row-jurusan {
+    margin: 0px 10px;
+}
+
 .jurusan-h1 {
     font-size: 2.5em;
     padding-top: 90px;
@@ -134,7 +138,7 @@
 }
 
 .jurusan-kol {
-    margin: 0px 10px 20px;
+    margin: 0px 20px 20px 0px;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
     transition: .2s ease;
@@ -193,6 +197,10 @@ small {
     border-radius: 25px;
 }
 
+.fasilitas-row {
+    margin: 0px 10px;
+}
+
 .fasilitas h1 {
     font-size: 2.5em;
     padding-bottom: 30px;
@@ -200,9 +208,9 @@ small {
     border-bottom: 5px solid #990000;
 }
 
-.fasilitas-row .col {
+.fasilitas-col {
     text-align: center;
-    margin: 0px 10px 20px;
+    margin: 0px 20px 20px 0px;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
     transition: .2s ease;
