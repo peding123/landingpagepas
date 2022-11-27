@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins';
+}
+
+a {
+    color: #F39C18;
     text-decoration: none;
+}
+a:hover {
+    color: #F39C18;
 }
 
 ::-webkit-scrollbar {
@@ -256,6 +263,7 @@ small {
 
 .map iframe {
     box-shadow: rgba(255, 255, 255, .35) 0px 0px 15px;
+    border-radius: 25px;
 }
 
 .fa-brands {
